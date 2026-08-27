@@ -2,10 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="misc/logo.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="js/script.js"></script>
+    <title>Online Portfolio</title>
 </head>
 <body>
-    Hello, this is the start of my portfolio!
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul id="main">
+            <li><a class="active" id="nav" href="#top_main">HOME</a></li>
+        </ul>
+        <ul id="socials">
+            <li><a href="https://www.facebook.com/ac.delapena.1/" target="_blank" rel="noopener noreferrer"><img src="./misc/socials_logos/fb.png" alt="" width="25px" height="25px"></a></li>
+            <li><a href="https://www.linkedin.com/in/acdlp/" target="_blank" rel="noopener noreferrer"><img src="./misc/socials_logos/li.png" alt="" width="25px" height="25px"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCJdEyik0rKoWEqxem1z6ieQ" target="_blank" rel="noopener noreferrer"><img src="./misc/socials_logos/yt.png" alt="" width="25px" height="25px"></a></li>
+        </ul>
+    </nav>
+    <div id="top_main">
+        <div id="top_container">
+            
+            <p id="top_large">WELCOME TO MY<br>DIGITAL CORNER</p>
+            <p id="top_small">Made by Nitsuguaaa</p>
+            <button id="top_btn"><a href="#about_main" id="scroll1">READ MORE</a></button>
+        </div>       
+    </div>
 </body>
 </html>
